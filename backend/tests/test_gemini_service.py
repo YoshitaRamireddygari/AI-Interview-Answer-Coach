@@ -201,3 +201,14 @@ def test_analysis_service_integration_with_gemini(monkeypatch):
         assert response.criteria_scores["relevance"].feedback == "Highly relevant."
         assert response.strengths == ["Clear logic", "Good tech depth"]
         assert response.improved_answer == "Enhanced answer text..."
+
+
+def test_gemini_model_configuration():
+    """
+    Verify GeminiService uses gemini-3.8-flash model.
+    """
+    from app.core.config import settings
+    service = GeminiService()
+    assert service.model_name == "gemini-3.8-flash"
+    assert settings.GEMINI_MODEL == "gemini-3.8-flash"
+

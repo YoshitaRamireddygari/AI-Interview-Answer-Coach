@@ -95,7 +95,7 @@ CRITICAL INSTRUCTIONS & CONSTRAINTS:
         If api_key is omitted, it is retrieved from environment variable or settings.
         """
         self.api_key = api_key or self.get_api_key(raise_if_invalid=False)
-        self.model_name = model_name or settings.GEMINI_MODEL or "gemini-2.5-flash"
+        self.model_name = model_name or settings.GEMINI_MODEL or "gemini-3.8-flash"
         self._client: Optional[genai.Client] = None
 
     @staticmethod

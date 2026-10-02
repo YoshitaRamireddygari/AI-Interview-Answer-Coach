@@ -69,7 +69,7 @@ PORT=8000
 PROJECT_NAME="AI Interview Answer Coach"
 GEMINI_API_KEY=AIzaSy_YOUR_ACTUAL_PRODUCTION_KEY_HERE
 AI_PROVIDER=gemini
-GEMINI_MODEL=gemini-2.5-flash
+GEMINI_MODEL=gemini-3.8-flash
 DATABASE_URL=sqlite:///./interview_coach.db
 CORS_ORIGINS=https://your-frontend.vercel.app,http://localhost:5173
 ```

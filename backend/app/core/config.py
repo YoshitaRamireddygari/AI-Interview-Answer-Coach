@@ -32,7 +32,7 @@ class Settings(BaseSettings):
     # AI API configuration (for Stage 2+)
     GEMINI_API_KEY: str = ""
     AI_PROVIDER: str = "gemini"
-    GEMINI_MODEL: str = "gemini-2.5-flash"
+    GEMINI_MODEL: str = "gemini-3.8-flash"
 
     model_config = SettingsConfigDict(
         env_file=".env",
