@@ -1,0 +1,70 @@
+{
+  "status": "success",
+  "timestamp": "2026-10-02T15:19:56.547319+00:00",
+  "metrics": {
+    "total_eval_items": 6,
+    "valid_json_response_rate": 100.0,
+    "schema_validation_success_rate": 100.0,
+    "score_range_validity_rate": 100.0,
+    "consistency_rate": 100.0,
+    "missing_feedback_coverage_rate": 100.0,
+    "hallucination_detection_pass_rate": 100.0
+  },
+  "item_results": [
+    {
+      "id": "eval_01_behavioral_complete_star",
+      "category": "behavioral",
+      "score": 75.0,
+      "score_10": 7.5,
+      "status": "placeholder",
+      "passed_schema": true,
+      "warnings_count": 1
+    },
+    {
+      "id": "eval_02_behavioral_missing_action_result",
+      "category": "behavioral",
+      "score": 75.0,
+      "score_10": 7.5,
+      "status": "placeholder",
+      "passed_schema": true,
+      "warnings_count": 1
+    },
+    {
+      "id": "eval_03_technical_http_misconception",
+      "category": "technical",
+      "score": 75.0,
+      "score_10": 7.5,
+      "status": "placeholder",
+      "passed_schema": true,
+      "warnings_count": 2
+    },
+    {
+      "id": "eval_04_technical_complete_architecture",
+      "category": "technical",
+      "score": 75.0,
+      "score_10": 7.5,
+      "status": "placeholder",
+      "passed_schema": true,
+      "warnings_count": 1
+    },
+    {
+      "id": "eval_05_project_vague_individual_role",
+      "category": "project",
+      "score": 75.0,
+      "score_10": 7.5,
+      "status": "placeholder",
+      "passed_schema": true,
+      "warnings_count": 1
+    },
+    {
+      "id": "eval_06_hr_filler_language",
+      "category": "hr",
+      "score": 75.0,
+      "score_10": 7.5,
+      "status": "placeholder",
+      "passed_schema": true,
+      "warnings_count": 1
+    }
+  ],
+  "disclaimer": "ENGINEERING DISCLAIMER: This evaluation report is compiled from a curated internal engineering dataset designed for developer regression testing, schema validation, and score boundary verification. It is NOT a statistically representative or scientifically peer-reviewed academic benchmark."
+}
